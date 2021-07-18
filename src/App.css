@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.formHeader{
+  font-size: 28px;
+  font-weight: 500;
+  color: #36454F;
+  display: block;
+  margin: 1rem 0rem 1rem 0rem;
+}

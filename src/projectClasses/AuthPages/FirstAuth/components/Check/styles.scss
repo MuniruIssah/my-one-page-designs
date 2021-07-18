@@ -1,0 +1,34 @@
+.firstAuthCheck {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem 0rem;
+  label {
+    color: #23395d;
+  }
+}
+
+.firstAuthCheckWithLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 1rem 0rem;
+  .checkBoxDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    label {
+      color: #23395d;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #152238;
+    font-size: 15px;
+  }
+}
+
+.firstAuthCheckBox {
+  margin-right: 7px;
+}
