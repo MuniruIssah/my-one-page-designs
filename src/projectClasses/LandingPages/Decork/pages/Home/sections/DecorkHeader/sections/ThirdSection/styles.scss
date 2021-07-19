@@ -1,0 +1,8 @@
+.decorkHeaderThirdSection {
+  align-self: flex-end;
+}
+@media (max-width: 600px) {
+  .decorkHeaderThirdSection {
+    display: none;
+  }
+}

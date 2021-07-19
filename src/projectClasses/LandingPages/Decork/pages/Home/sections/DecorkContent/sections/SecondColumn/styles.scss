@@ -1,0 +1,20 @@
+.decorkContentSecondColumn {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-grow: 1;
+  position: relative;
+  flex-basis: 45%;
+  flex-shrink: 0;
+  height:auto;
+}
+.decorkContentSecondColumnInnerElement{
+  position: absolute;
+  top: 60px;
+  left:60px;
+}
+@media (max-width: 1000px) {
+  .decorkContentSecondColumn {
+    display: none;
+  }
+}

@@ -1,0 +1,11 @@
+.decorkContentFirstColumnLargeHeading{
+    font-size: 15vw;
+    text-align: left;
+    line-height: 0.9;
+    font-family: 'Cormorant Garamond', serif;
+}
+@media (max-width: 600px) {
+    .decorkContentFirstColumnLargeHeading {
+        font-size: 100px;
+    }
+  }

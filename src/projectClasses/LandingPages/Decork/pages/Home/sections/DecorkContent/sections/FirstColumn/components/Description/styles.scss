@@ -1,0 +1,13 @@
+.decorkContentFirstColumnDescription {
+  color: grey;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 500;
+  width: 50%;
+  margin: 2rem 0rem;
+}
+@media (max-width: 1000px) {
+  .decorkContentFirstColumnDescription {
+    width: 90%;
+  }
+}
