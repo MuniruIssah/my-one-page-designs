@@ -1,0 +1,16 @@
+.backToHomeButton{
+    color: rgb(80, 104, 104);
+    background: none;
+    border: none;
+    font-size: 14px;
+    position: absolute;
+    top: 20px;
+
+
+    span{
+        margin-left: 10px;
+        word-spacing: -1px;
+        text-decoration: underline;
+    }
+
+}

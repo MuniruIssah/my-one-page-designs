@@ -9,6 +9,7 @@ import "./styles.scss";
 import { Route, Switch, useRouteMatch } from "react-router-dom";
 import SignIn from "./pages/SignIn/signIn";
 import SignUp from "./pages/SignUp/signUp";
+import BackToHome from "./components/BackToHome/backToHome";
 //Brands
 
 const brands = [
@@ -21,6 +22,7 @@ const FirstAuth = () => {
   const { path } = useRouteMatch();
   return (
     <div className="firstAuth">
+      <BackToHome/>
       <Switch>
         <Route exact path={path}>
           <SignIn brands={brands} />

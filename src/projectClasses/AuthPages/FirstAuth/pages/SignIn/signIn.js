@@ -22,10 +22,10 @@ const SignIn = ({ brands }) => {
 export default SignIn;
 
 const SignInForm = ({ brands }) => {
-  const history=useHistory()
-  const handleGoToSignUp=()=>{
-    history.push('firstAuth/signUp');
-  }
+  const history = useHistory();
+  const handleGoToSignUp = () => {
+    history.push("firstAuth/signUp");
+  };
   return (
     <form>
       <span className="formHeader"> Sign In to Our Platform</span>
@@ -48,9 +48,13 @@ const SignInForm = ({ brands }) => {
       />
       <FirstAuthButton title="Sign In" />
 
-      <TextAndLink text="or login with"/>
+      <TextAndLink text="or login with" />
       <BrandStrip brands={brands} />
-      <TextAndLink text="Not Registered?" link="Create Account" onClick={handleGoToSignUp} />
+      <TextAndLink
+        text="Not Registered?"
+        link="Create Account"
+        onClick={handleGoToSignUp}
+      />
     </form>
   );
 };
