@@ -1,0 +1,60 @@
+.mainContainer {
+  padding: 30px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  details:first-child {
+    border-radius: 4px 4px 0px 0px;
+  }
+  details:last-child {
+    border-radius: 0px 0px 4px 4px;
+    border: thin solid #dadce0;
+  }
+  details {
+    border: thin solid #dadce0;
+    border-bottom: none;
+    outline: none;
+    // border-radius: 4px;
+    width: min(700px, 95vw);
+    padding: 0.5em 0.5em 0;
+
+    &:hover {
+      background-color: gainsboro;
+    }
+  }
+
+  summary {
+    outline: none;
+    display: flex;
+    text-align: left;
+    position: relative;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.5rem 3.25rem 1rem 2rem;
+
+    .mainContentOpenIcon {
+      position: absolute;
+      bottom: 50%;
+      color: #1967d2;
+      right: 10px;
+      transition: all 250ms ease-in;
+    }
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  details[open] {
+    padding: 0.5em;
+
+    .mainContentOpenIcon {
+      transform: rotateZ(180deg);
+    }
+  }
+
+  details[open] summary {
+    border-bottom: thin solid #dadce0;
+    margin-bottom: 0.5em;
+  }
+}

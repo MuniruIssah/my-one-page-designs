@@ -1,0 +1,22 @@
+.googleVaultHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    color: grey;
+
+}
+.googleVaultHeaderFirstSection{
+    
+
+    span{
+        margin-left:20px ;
+        font-size: 20px;
+    }
+    
+}
+.googleVaultHeaderSecondSection{
+    display: flex;
+    align-items: center;
+}
