@@ -1,0 +1,12 @@
+.bhNContentLargeText {
+  font-size: 3vw;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  .bhNContentLargeText {
+    font-size: 25px;
+  }
+}

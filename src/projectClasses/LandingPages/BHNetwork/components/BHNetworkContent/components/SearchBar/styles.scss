@@ -1,0 +1,30 @@
+.bhNetworkSearchBar{
+    height: 60px;
+    display: flex;
+    padding: 0px 5px;
+    justify-content: stretch;
+    align-items: center;
+    margin-bottom: 2rem;
+    background-color: white;
+
+    .icon{
+        color: rgb(212, 212, 212);
+        flex: 0.1;
+        font-size: 18px;
+
+    }
+
+    input{
+        height: 100%;
+        box-sizing: border-box;
+        flex: 0.9;
+        border: none;
+        font-size: 16px;
+        outline: none;
+
+        &::placeholder{
+            color: rgb(212, 212, 212);
+            font-size: 16px;
+        }
+    }
+}

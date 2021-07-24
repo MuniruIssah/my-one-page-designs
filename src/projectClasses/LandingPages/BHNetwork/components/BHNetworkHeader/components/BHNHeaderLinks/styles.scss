@@ -1,0 +1,9 @@
+.bhNHeaderLinks{
+    display: flex;
+}
+
+@media (max-width: 950px) {
+    .bhNHeaderLinks {
+      display: none;
+    }
+  }

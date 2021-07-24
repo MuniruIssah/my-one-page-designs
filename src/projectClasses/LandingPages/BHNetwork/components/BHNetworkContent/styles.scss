@@ -1,0 +1,13 @@
+.bhNetworkContentWrapper{
+    display: flex;
+    margin:4rem 0px;
+    .bhNetworkActualContent{
+        flex: 0.6;
+    }
+    @media (max-width: 1000px) {
+        .bhNetworkActualContent {
+          flex: 1;
+        }
+      }
+
+}
