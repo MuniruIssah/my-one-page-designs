@@ -5,6 +5,7 @@ import FirstAuth from './projectClasses/AuthPages/FirstAuth';
 import Decork from './projectClasses/LandingPages/Decork'
 import GoogleVaultHelp from './projectClasses/GooglePagesClones/GoogleVaultClone/pages/GoogleVaultHelp';
 import BHNetwork from './projectClasses/LandingPages/BHNetwork';
+import AnimepaheWebPlayerView from './projectClasses/WebsiteClones/Animepahe/pages/AnimepaheWebPlayerView';
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
           <Switch>
             <Route path='/firstAuth' component={FirstAuth} />
             <Route path='/decork' component={Decork} />
+            <Route path='/animepahe' component={AnimepaheWebPlayerView} />
             <Route path="/gclones" component={GoogleVaultHelp}/>
             <Route path="/" component={BHNetwork}/>
 

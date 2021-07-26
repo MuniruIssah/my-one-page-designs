@@ -1,0 +1,41 @@
+.animepaheWebviewDetailsSection {
+  display: flex;
+  flex: 0.76;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0px auto 5rem;
+  .detailsImageDiv {
+    background-position: center;
+    border-radius: 7px;
+    width: 85px;
+    height: 85px;
+    margin-right: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .detailsInfoDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .titleAndEpisode {
+      display: flex;
+      font-size: 18px;
+      font-weight: 700;
+      .animepaheWdetailsTitle {
+        color: #d5015b;
+
+        margin-bottom: 4px;
+      }
+      .episodeNumber {
+        color: white;
+      }
+    }
+    .animeMisc {
+      color: grey;
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 3px;
+    }
+  }
+}

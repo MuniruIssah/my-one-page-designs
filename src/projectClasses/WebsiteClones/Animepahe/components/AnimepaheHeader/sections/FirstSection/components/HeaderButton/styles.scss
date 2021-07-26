@@ -1,0 +1,14 @@
+.animepaheHeaderButton {
+  height: 38px;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: hsl(0, 0%, 15%);
+  padding: 0px 15px;
+  margin: 0px;
+  transition: all 250ms ease-in-out;
+}
+.animepaheHeaderButton:hover {
+  background-color: #d5015b;
+}

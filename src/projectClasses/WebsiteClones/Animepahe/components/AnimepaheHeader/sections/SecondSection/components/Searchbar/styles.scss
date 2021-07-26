@@ -1,0 +1,32 @@
+.animepaheSearchBar{
+    background-color: rgb(221, 230, 240);
+    padding: 7px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    transition: all 250ms ease-in-out;
+    .animepaheIcon{
+        color: #667d99;
+        font-size: 13px;
+        flex: 0.1;
+    
+    }
+    .animepaheSearchInput{
+        outline: none;
+        background:none;
+        border: none;
+        font-size: 13px;
+        flex: 0.9;
+        &::placeholder{
+            color: #667d99;
+            font-size: 13px;
+            font-weight: 500;
+        }
+    }
+}
+.active{
+    width: 400px;
+    box-sizing: border-box;
+    outline: 2px solid #d5015b;
+}
+

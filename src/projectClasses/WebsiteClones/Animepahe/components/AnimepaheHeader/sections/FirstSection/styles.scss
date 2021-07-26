@@ -1,0 +1,15 @@
+.animepaheHeaderFirstSection {
+  color: white;
+  display: flex;
+  align-items: center;
+  .animepaheLogo {
+    font-size: 28px;
+    .animepaheRed {
+      color: #d5015b;
+      font-weight: 900;
+    }
+  }
+  .animepaheHeaderButtonList {
+    margin-left: 15px;
+  }
+}

@@ -1,0 +1,13 @@
+.animepahePlayerMainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: scale(1,0.77);
+  .apmsIcon {
+    font-size: 70px;
+    margin-bottom: 10px;
+  }
+  span{
+      font-weight: 700;
+  }
+}
