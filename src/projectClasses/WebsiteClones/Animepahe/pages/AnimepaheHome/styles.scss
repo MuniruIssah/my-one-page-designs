@@ -1,0 +1,16 @@
+.animepaheHomepage {
+  text-align: left;
+  padding: 0px 12%;
+
+  .latestHeader {
+    margin: 1.5rem 0px;
+    display: block;
+    font-weight: 400;
+    font-size: 32px;
+  }
+
+  .animepaheHomepageGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
