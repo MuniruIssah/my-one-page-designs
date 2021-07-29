@@ -1,0 +1,19 @@
+.notification {
+  position: relative;
+  width: auto;
+
+  .notificationIcon {
+    font-size: 30px;
+    color:hsl(248, 7%, 43%);
+  }
+
+  .badge {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top:4px;
+    left: 17px;
+    background-color: hsl(355, 68%, 65%);
+  }
+}

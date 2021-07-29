@@ -1,0 +1,39 @@
+.secondColumnCard {
+  background-color: white;
+  padding:30px 20px 10px;
+  border-radius: 10px;
+  color: hsl(221, 44%, 26%);
+  margin: 1rem 0px;
+
+  .strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+
+    .membersList {
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+
+  .header{
+      span{
+          font-size: 12px;
+          font-weight: 500;
+      }
+      .icon{
+          color: lightgray;
+      }
+  }
+
+}
+
+.joinedButton{
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 15px;
+    background-color: hsl(355, 73%, 61%);
+}

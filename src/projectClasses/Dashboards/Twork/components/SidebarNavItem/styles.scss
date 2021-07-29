@@ -1,0 +1,53 @@
+.sidebarNavItem {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: stretch;
+  margin: 1rem 0px;
+  position: relative;
+  font-size: 15px;
+  color: hsl(248, 7%, 43%);
+  font-weight: 500;
+  height: 50px;
+  border: none;
+  background: none;
+  width: 100%;
+  transition: all 200ms ease-in;
+
+  .icon {
+    font-size: 17px;
+    flex: 0.2;
+  }
+  span {
+    flex: 0.8;
+  }
+  .notificationCount {
+    color: #f4f9fe;
+    position: absolute;
+    background-color: #da3f4d;
+    padding: 4px;
+    right: 15px;
+    font-size: 11px;
+    border-radius: 3px;
+  }
+
+  &:hover {
+    background-image: linear-gradient(
+      to right,
+      white,
+      #f4f9fe,
+      rgb(175, 207, 246, 0.2)
+    );
+    margin: 1rem 0px;
+    font-size: 15px;
+    color: #5f91cc;
+    font-weight: 500;
+    height: 50px;
+    border: none;
+    width: 100%;
+    border-right: 4px solid #5f91cc;
+  }
+}
+
+// #37363e

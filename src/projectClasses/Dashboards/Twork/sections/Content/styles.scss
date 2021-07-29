@@ -1,0 +1,16 @@
+.tWorkContent {
+  flex: 0.78;
+  text-align: left;
+}
+.mainContentGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 1.5rem 0px 0px;
+}
+
+@media (max-width: 900px) {
+  .tWorkContent {
+    flex: 1;
+  }
+}
+

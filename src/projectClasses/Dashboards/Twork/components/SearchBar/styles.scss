@@ -1,0 +1,26 @@
+.searchBar {
+  flex: 0.9;
+  border-radius: 8px;
+  padding: 10px 0px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+
+  .icon {
+    font-size: 18px;
+    flex: 0.1;
+    color: hsl(248, 7%, 83%);
+  }
+  input {
+    flex: 0.9;
+    border: none;
+    outline: none;
+    color: hsl(248, 7%, 53%);
+    font-size: 16px;
+
+    &::placeholder {
+      color: hsl(248, 7%, 83%);
+      font-size: 16px;
+    }
+  }
+}

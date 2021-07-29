@@ -1,0 +1,13 @@
+.firstColumn {
+  position: relative;
+  height: 83vh;
+  overflow-y: scroll;
+  .filterButtonStrip {
+    height: 6vh;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #f4f9fe;
+    justify-content: space-between;
+  }
+}

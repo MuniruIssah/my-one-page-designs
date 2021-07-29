@@ -1,0 +1,40 @@
+.firstColumnCard {
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: white;
+  width: 100%;
+  margin: 1rem 0px;
+  border-radius: 10px;
+  color: hsl(221, 44%, 26%);
+
+  .membersList {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .miscStrip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 13px;
+      color: rgb(37, 56, 95,0.5);
+    font-weight: 500;
+    
+  }
+  .progressStrip {
+    display: flex;
+    align-items: center;
+
+    progress {
+      flex: 1;
+    }
+
+    .icon {
+      color: hsl(221, 44%, 56%);
+      margin-left: 10px;
+      font-size: 18px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.secondColumn {
+  padding-left: 5%;
+  height: 83vh;
+  overflow-y: scroll;
+  position: relative;
+  .columnHeader {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    background-color: #f4f9fe;
+    top: 0;
+    height: 6vh;
+    justify-content: space-between;
+
+    span {
+      font-weight: 600;
+      color: hsl(221, 44%, 26%);
+      font-size: 18px;
+    }
+    .icon {
+      color: lightgray;
+      font-size: 15px;
+    }
+  }
+}

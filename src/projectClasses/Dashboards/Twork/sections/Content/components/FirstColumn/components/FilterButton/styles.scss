@@ -1,0 +1,15 @@
+.filterButton {
+  color: hsl(248, 7%, 83%);
+  border: none;
+  font-weight: 600;
+  border-radius: 7px;
+  font-size: 15px;
+  padding: 10px 15px;
+  background: none;
+
+  &:hover {
+    color: hsl(221, 44%, 36%);
+    
+    background-color: #afcff6;
+  }
+}
