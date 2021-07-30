@@ -1,0 +1,45 @@
+.largeCard {
+  background-color: hsl(40, 75%, 97%);
+  border-radius: 40px;
+  margin-top: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.5rem 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.largeCardSection {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+
+  .LCSicon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(214, 212, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    .icon {
+      font-size: 14px;
+      color: hsl(0, 0%, 20%);
+    }
+  }
+  .LCSsmall {
+    font-size: 13px;
+    color: hsl(0, 0%, 70%);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .LCSvalue {
+    font-size: 30px;
+    font-weight: 600;
+    color: hsl(0, 0%, 20%);
+    margin-bottom: 0.5rem;
+  }
+}

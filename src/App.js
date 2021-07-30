@@ -6,6 +6,7 @@ import GoogleVaultHelp from "./projectClasses/GooglePagesClones/GoogleVaultClone
 import BHNetwork from "./projectClasses/LandingPages/BHNetwork";
 import Animepahe from "./projectClasses/WebsiteClones/Animepahe";
 import TWorkDashboard from "./projectClasses/Dashboards/Twork";
+import GhulamRasoolFinanceDashboard from "./projectClasses/Dashboards/GhulamRasoolFinanceDashboard";
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
           <Route path="/firstAuth" component={FirstAuth} />
           <Route path="/decork" component={Decork} />
           <Route path="/twork" component={TWorkDashboard} />
+          <Route path="/ghulam" component={GhulamRasoolFinanceDashboard} />
           <Route path="/animepahe" component={Animepahe} />
           <Route path="/gclones" component={GoogleVaultHelp} />
           <Route path="/" component={BHNetwork} />

@@ -1,0 +1,94 @@
+.smallCard {
+  padding: 30px 0px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 48%;
+  position: relative;
+  background-color: hsl(270, 100%, 98%);
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+
+  .icon {
+    //   transform: rotateZ(30deg);
+    //   position: absolute;
+  }
+
+  .textSection {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    span:first-child {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    span:nth-child(2) {
+      font-size: 13px;
+      color: hsl(0, 0%, 60%);
+      font-weight: 400;
+    }
+    span:last-child {
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 2;
+    }
+  }
+
+  .percentSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+
+    span {
+      font-weight: 900;
+      color: hsl(0, 0%, 40%);
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+
+      border: 4px solid transparent;
+      border-radius: 50%;
+      border: 4px solid hsl(0, 0%, 40%);
+      border-left: 4px solid transparent;
+      transform: rotateZ(45deg);
+    }
+  }
+}
+
+.lightbrown {
+  background-color: hsl(24, 88%, 86%);
+
+  .icon {
+    color: hsl(24, 88%, 66%);
+  }
+}
+
+.lightgreen {
+  background-color: hsl(145, 72%, 95%);
+  .icon {
+    color: hsl(145, 72%, 75%);
+  }
+}
+.lightblue {
+  background-color: hsl(192, 100%, 95%);
+  .icon {
+    color: hsl(192, 100%, 75%);
+  }
+}
+.lightviolet {
+  background-color: hsl(270, 100%, 98%);
+  .icon {
+    color: hsl(270, 100%, 78%);
+  }
+}

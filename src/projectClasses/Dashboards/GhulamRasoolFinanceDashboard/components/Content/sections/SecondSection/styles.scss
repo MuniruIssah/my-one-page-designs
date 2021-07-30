@@ -1,0 +1,54 @@
+.grfdSecondContentSection {
+  background: hsl(0, 0%, 0%);
+  border-radius: 40px;
+  color: hsl(0, 0%, 90%);
+  box-sizing: border-box;
+  padding: 20px;
+  flex: 0.25;
+  height: 100%;
+
+  h3{
+      margin:1.5rem ;
+  }
+
+  .SecondSectionItem {
+    display: flex;
+    margin:2rem 1.5rem ;
+
+    .secondSectionItemIcon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: hsl(0, 0%, 90%);
+      margin-right: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .icon{
+          color: hsl(0, 0%, 20%);
+      }
+    }
+
+    .secondSectionItemDetails {
+      display: flex;
+      flex-direction: column;
+
+      span:first-child{
+          font-size: 20px;
+          font-weight: 800;
+          margin-bottom: 5px;
+      }
+      span:last-child{
+          color: hsl(0, 0%, 50%);
+          font-size: 13px;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .grfdSecondContentSection {
+    display: none;
+  }
+}

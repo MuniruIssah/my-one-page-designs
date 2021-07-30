@@ -1,0 +1,23 @@
+.grfdSearchBar {
+  border: 1.5px solid hsl(0, 0%, 90%);
+  width: max(70%, 300px);
+  border-radius: 10px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+
+  .icon {
+    color: hsl(0, 0%, 50%);
+    flex: 0.1;
+    font-size: 20px;
+  }
+
+  input {
+    flex: 0.8;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,41 @@
+.grfdFirstContentSection {
+  flex: 0.7;
+  height: 100%;
+
+  .greetingAndFilter{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 1rem;
+
+    .greeting{
+      display: flex;
+      flex-direction: column;
+
+      span:first-child{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 2;
+      }
+      span:last-child{
+        color: hsl(0, 0%, 70%);
+      }
+    }
+  }
+
+  .smallCardGrid{
+    display: flex;
+    width: 100%;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+  }
+}
+
+
+@media (max-width: 900px) {
+  .grfdFirstContentSection {
+   flex: 1;
+  }
+}

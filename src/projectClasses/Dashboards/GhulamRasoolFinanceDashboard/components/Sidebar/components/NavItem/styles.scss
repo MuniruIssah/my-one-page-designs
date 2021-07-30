@@ -1,0 +1,39 @@
+.grfdNavItem {
+  border: none;
+  position: relative;
+  margin: 1rem 0px;
+  background: none;
+  height: 40px;
+  width: 100%;
+  color: hsl(0, 0%, 20%);
+  display: flex;
+  align-items: center;
+
+  .icon {
+    flex: 0.3;
+    font-size: 20px;
+  }
+  span {
+    flex: 0.7;
+    display: block;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+  }
+}
+
+.grfdNavItem ::before {
+  content: "";
+  position: absolute;
+  border-left: 4px solid hsl(0, 0%, 17%);
+  top: 0;
+  left: 0.5px;
+  border-radius: 20px;
+  height: 0%;
+  transition: all 250ms ease-in-out;
+}
+
+.grfdNavItem:hover ::before {
+  top: 0;
+  height: 100%;
+}
