@@ -3,20 +3,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./styles.scss";
 import NavItem from "./components/NavItem";
 import {
-  faChartArea,
-  faChartBar,
   faChartPie,
   faCog,
-  faCogs,
   faDiceFour,
-  faHome,
   faMoneyBillAlt,
-  faTh,
   faThLarge,
   faTrophy,
   faUser,
-  faWarehouse,
 } from "@fortawesome/free-solid-svg-icons";
+import ProfileSection from "./components/ProfileSection";
+import me from '../../assets/me.jpg'
 
 //Sidebar Buttons
 
@@ -51,13 +47,14 @@ const GRFDSidebar = () => {
   return (
     <aside className="grfdSidebar">
       <FontAwesomeIcon icon={faDiceFour} className="sideBarLogo" />
-      <div className="sidebarButtonWrapper"> 
-      {SidebarButtons.map((SidebarButton) => (
-        <NavItem key={SidebarButton.label} icon={SidebarButton.icon}>
-          {SidebarButton.label}
-        </NavItem>
-      ))}
+      <div className="sidebarButtonWrapper">
+        {SidebarButtons.map((SidebarButton) => (
+          <NavItem key={SidebarButton.label} icon={SidebarButton.icon}>
+            {SidebarButton.label}
+          </NavItem>
+        ))}
       </div>
+      <ProfileSection image={me} />
     </aside>
   );
 };
