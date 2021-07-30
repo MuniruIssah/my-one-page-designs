@@ -1,0 +1,54 @@
+.scroltGraphCard {
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  flex: 0.23;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+
+  .textWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    span {
+      display: block;
+      text-align: left;
+    }
+
+    span:first-child{
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 12px;
+        margin-bottom: 10px;
+        color: hsl(0, 0%, 50%);
+    }
+    span:last-child{
+        font-size: 18px;
+        color: hsl(0, 0%, 20%);
+    }
+  }
+
+  .chartSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .percentage {
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 500;
+      color: hsl(0, 100%, 70%);
+
+      .icon{
+          margin-right: 5px;
+      }
+      
+    }
+    .increase{
+        color: hsl(120, 46%, 46%);
+    }
+  }
+}

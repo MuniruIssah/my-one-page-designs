@@ -1,0 +1,30 @@
+.scroltCardwithAction {
+  background-color: white;
+  position: relative;
+  flex: 0.485;
+  border-radius: 6px;
+  margin: 1rem 0px;
+  box-sizing: border-box;
+  padding: 25px;
+  min-height: 300px;
+
+  .fixedCardHeader {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      font-weight: 600;
+    }
+
+    button {
+      color: slateblue;
+      font-weight: 600;
+
+      .icon {
+        margin-left: 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.scroltHeadingStrip {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 2rem 0rem;
+
+  span {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .headerButton {
+    background-color: hsl(248, 77%, 58%);
+    color: white;
+    width: 110px;
+    border-radius: 4px;
+    padding: 7px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      font-size: 12px;
+    }
+  }
+}
