@@ -1,4 +1,5 @@
 import "./App.css";
+import 'antd/dist/antd.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import FirstAuth from "./projectClasses/AuthPages/FirstAuth";
 import Decork from "./projectClasses/LandingPages/Decork";
@@ -8,6 +9,7 @@ import Animepahe from "./projectClasses/WebsiteClones/Animepahe";
 import TWorkDashboard from "./projectClasses/Dashboards/Twork";
 import GhulamRasoolFinanceDashboard from "./projectClasses/Dashboards/GhulamRasoolFinanceDashboard";
 import ScroltDashboard from "./projectClasses/Dashboards/Scrolt";
+import FreshMarket from "./projectClasses/Dashboards/FreshMarket";
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,8 @@ function App() {
           <Route path="/decork" component={Decork} />
           <Route path="/twork" component={TWorkDashboard} />
           <Route path="/scrolt" component={ScroltDashboard} />
+          <Route path="/fmarket" component={FreshMarket} />
+
           <Route path="/ghulam" component={GhulamRasoolFinanceDashboard} />
           <Route path="/animepahe" component={Animepahe} />
           <Route path="/gclones" component={GoogleVaultHelp} />
