@@ -6,10 +6,10 @@ import "./styles.scss"
 const FreshMarket = () => {
     return (
         <div className="fmarket">
-            <DashboardLogin/>
-            {/* <SideBarAndContentLayout>
+            {/* <DashboardLogin/> */}
+            <SideBarAndContentLayout>
                 <DashboardContent/>
-            </SideBarAndContentLayout> */}
+            </SideBarAndContentLayout>
         </div>
     )
 }

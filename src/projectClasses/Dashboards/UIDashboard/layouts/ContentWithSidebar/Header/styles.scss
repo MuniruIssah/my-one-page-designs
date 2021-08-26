@@ -1,0 +1,28 @@
+.uiDashboardHeader {
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 3%;
+
+  .uiDashboardHeaderIcon {
+    font-size: 17px;
+    font-weight: 600;
+
+    span:last-child {
+      color: rgb(13, 121, 245);
+    }
+  }
+
+  .uiDashboardHeaderExtras {
+    display: flex;
+    align-items: center;
+
+    .uiDashboardHeaderExtrasProfile {
+      margin-left: min(3vw, 20px);
+      display: flex;
+      align-items: center;
+      color: gray;
+    }
+  }
+}
