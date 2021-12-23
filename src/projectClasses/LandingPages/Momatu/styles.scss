@@ -1,0 +1,62 @@
+.momatu {
+  width: 100vw;
+  // padding:1rem 4.5%;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+
+  .topSection {
+    background-color: #ece0ee;
+    min-height: 30vw;
+    padding: 1rem 5.5%;
+  }
+
+  .paddedSection {
+    padding: 1rem 4.5%;
+  }
+
+  li {
+    margin-top: 1rem;
+    padding: 0px 0 10px 50px;
+    list-style: none;
+    background-image: url(./assets/white-checkmark.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 20px;
+
+    span{
+        font-weight: bold;
+    }
+    p{
+        font-weight: lighter;
+    }
+  }
+}
+
+.momatuRelative {
+  position: relative;
+  min-height: 50vh;
+}
+
+.momatuButton {
+  width: 100px;
+  padding: 7px 0px;
+  border-radius: 15px;
+  border: none;
+  font-size: 12px;
+  margin: 1rem 0rem;
+}
+.momatuViolet {
+  background-color: hsl(242, 28%, 65%);
+  color: white;
+}
+.momatuWhite {
+  background-color: white;
+  color: #555393;
+}
+
+.momatuParagragh {
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+  color: #a7a0b3;
+}

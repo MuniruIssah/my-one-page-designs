@@ -1,0 +1,30 @@
+.momatuHeader{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+    .momatuLogoSection{
+        display: flex;
+        align-items: center;
+        span{
+            font-weight: bold;
+            color: hsl(242, 28%, 75%);
+            font-size: 25px;
+        }
+    }
+    .momatuLinks{
+       a{
+          margin: 0px 1rem;
+          color: hsl(0, 0%, 20%);
+          font-weight: 400;
+       }
+    }
+}
+
+.activeMomatuLink{
+    margin: 0px 1rem;
+    color: hsl(0, 0%, 20%);
+    font-weight: bold;
+
+}

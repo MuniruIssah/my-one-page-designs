@@ -11,6 +11,7 @@ import GhulamRasoolFinanceDashboard from "./projectClasses/Dashboards/GhulamRaso
 import ScroltDashboard from "./projectClasses/Dashboards/Scrolt";
 import FreshMarket from "./projectClasses/Dashboards/FreshMarket";
 import UIDashboard from "./projectClasses/Dashboards/UIDashboard";
+import Momatu from "./projectClasses/LandingPages/Momatu";
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,8 @@ function App() {
           <Route path="/ghulam" component={GhulamRasoolFinanceDashboard} />
           <Route path="/animepahe" component={Animepahe} />
           <Route path="/gclones" component={GoogleVaultHelp} />
+          <Route path="/momatu" component={Momatu} />
+
           <Route path="/" component={BHNetwork} />
         </Switch>
       </Router>

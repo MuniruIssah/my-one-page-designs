@@ -1,0 +1,20 @@
+.momatuHCE{
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    
+    .momatuHCEheader{
+        font-weight: bold;
+        color: hsl(242, 28%, 65%);
+    }
+
+    .momatuHCEcontent{
+        font-size: 3vw;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #111058;
+    }
+}
