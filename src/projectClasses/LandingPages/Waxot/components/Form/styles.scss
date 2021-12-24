@@ -1,0 +1,25 @@
+.waxotEmailFormWrapper {
+  margin: 1rem auto;
+  background-color: #f5f6fb;
+  height: 45px;
+  border-radius: 20px;
+  width: 450px;
+  display: flex;
+  input {
+    margin-left: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+
+  button {
+    width: 150px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 13px;
+    border: none;
+    color: white;
+    background-color: hsl(244, 82%, 57%);
+  }
+}

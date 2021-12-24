@@ -1,0 +1,51 @@
+.waxotHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .waxotLogo {
+    font-weight: 600;
+    font-size: 18px;
+    span:first-child {
+      color: #2215da;
+    }
+    span:last-child {
+      color: #585c5f;
+    }
+  }
+
+  ul {
+    a {
+      color: #585c5f;
+      font-size: 14px;
+      padding: 0px 15px;
+    }
+  }
+
+  .waxotButtonSection {
+    display: flex;
+    align-items: center;
+    button:first-child {
+      background: none;
+      padding: 7px 15px;
+      font-weight: 500;
+      border: none;
+      color: #2215da;
+      margin-right: 1rem;
+    }
+    button:last-child {
+      background: rgb(34, 21, 218, 0.1);
+      font-weight: 500;
+      border: none;
+      padding: 7px 15px;
+      border-radius: 15px;
+      color: #2215da;
+    }
+  }
+}
+
+.waxotActiveNavlink {
+  color: #585c5f;
+  font-size: 14px;
+  padding: 0px 15px;
+}

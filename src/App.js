@@ -12,6 +12,7 @@ import ScroltDashboard from "./projectClasses/Dashboards/Scrolt";
 import FreshMarket from "./projectClasses/Dashboards/FreshMarket";
 import UIDashboard from "./projectClasses/Dashboards/UIDashboard";
 import Momatu from "./projectClasses/LandingPages/Momatu";
+import Waxot from "./projectClasses/LandingPages/Waxot";
 function App() {
   return (
     <div className="App">
@@ -27,6 +28,8 @@ function App() {
           <Route path="/animepahe" component={Animepahe} />
           <Route path="/gclones" component={GoogleVaultHelp} />
           <Route path="/momatu" component={Momatu} />
+          <Route path="/waxot" component={Waxot} />
+
 
           <Route path="/" component={BHNetwork} />
         </Switch>

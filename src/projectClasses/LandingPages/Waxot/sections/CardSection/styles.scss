@@ -1,0 +1,25 @@
+.waxotCardSection{
+    height: 30vh;
+    margin-top: 3rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .waxotCardWrapper{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+
+    .violetBackground{
+        position: absolute;
+        bottom: 0;
+        left: -5%;
+        z-index: 2;
+        background-color: hsl(244, 82%, 57%);
+        height: 15vh;
+        width: 109.9%;
+    }
+}
