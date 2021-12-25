@@ -1,0 +1,58 @@
+.movieCharacterSection{
+    width: 90%;
+    margin: 0.5rem auto;
+    .characterSectionHeader{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        .heading{
+            display: flex;
+            align-items: center;
+            span{
+                font-size: 30px;
+                font-weight: 900;
+                // line-height: 10px;
+            }
+
+            div{
+                height: 0px;
+                border-top: 20px solid red;
+                border-left: 50px solid red;
+                border-right: 5px solid white;
+                margin-right: 15px
+            }
+        }
+
+        .characterControls{
+            button{
+                border: 2px solid black;
+                background: none;
+                height: 30px;
+                width: 30px;
+                margin: 0px 10px;
+
+                &:first-child{
+                    border-bottom-left-radius: 7px;
+                }
+                &:last-child{
+                    border-bottom-right-radius: 7px;
+                }
+            }
+        }
+    }
+
+    .characterSectionInner{
+        margin: 2rem 0px;
+        width: 100%;
+        display: flex;
+        overflow-x: scroll;
+        padding-bottom: 1rem;
+
+        .characterCard{
+            margin:0px 1rem;
+        }
+        .characterCard:first-child{
+            margin-left: 0px;
+        }
+    }
+}

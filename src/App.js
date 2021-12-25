@@ -13,6 +13,7 @@ import FreshMarket from "./projectClasses/Dashboards/FreshMarket";
 import UIDashboard from "./projectClasses/Dashboards/UIDashboard";
 import Momatu from "./projectClasses/LandingPages/Momatu";
 import Waxot from "./projectClasses/LandingPages/Waxot";
+import SomeonesMarvel from "./projectClasses/LandingPages/SomeonesMarvel";
 function App() {
   return (
     <div className="App">
@@ -29,6 +30,7 @@ function App() {
           <Route path="/gclones" component={GoogleVaultHelp} />
           <Route path="/momatu" component={Momatu} />
           <Route path="/waxot" component={Waxot} />
+          <Route path="/marvel" component={SomeonesMarvel} />
 
 
           <Route path="/" component={BHNetwork} />
