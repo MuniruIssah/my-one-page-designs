@@ -1,0 +1,18 @@
+.homelyResultStrip{
+    padding: 0px 2.5rem;
+    text-align: left;
+    margin: 1.5rem 0px;
+
+    span{
+
+        &:first-child{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        
+        &:last-child{
+            font-size: 18px;
+            color: #9f9f9e;
+        }
+    }
+}

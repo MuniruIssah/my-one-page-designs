@@ -1,0 +1,71 @@
+.homelyHomeCardWrapper {
+  display: flex;
+  margin: 1rem 0rem;
+  box-sizing: border-box;
+
+  flex-direction: column;
+  text-align: left;
+  .homelyCardImage {
+    background-color: slategray;
+    height: 200px;
+    border-radius: 18px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+
+    .yellowTypeIndicator {
+      position: absolute;
+      bottom: 7%;
+      left: 5%;
+      padding: 3px 10px;
+      border-radius: 3px;
+      background-color: hsla(49, 83%, 77%, 0.986);
+      color: #372d24;
+      font-weight: 500;
+      font-size: 13px;
+    }
+  }
+
+  .nameAndPrice {
+    display: flex;
+    margin-top: 0.6rem;
+    align-items: center;
+    justify-content: space-between;
+
+    span{
+        &:first-child{
+            color: hsl(0, 0%, 10%);
+            font-size: 16px;
+            font-weight: bold;
+        }
+        &:last-child{
+            color: hsl(156, 49%, 42%);
+            font-size: 21px;
+            font-weight: bold;
+        }
+    }
+  }
+  .homelyCardLocation {
+    color: hsl(210, 13%, 60%);
+    font-size: 14px;
+    padding: 0.5rem 0px;
+    font-weight: 500;
+    border-bottom: 1px solid lightgrey;
+  }
+  .homelyHomeCardFooter {
+    display: flex;
+    justify-content: space-between;
+
+    .homelyFooterIconAndText {
+      margin-top: 0.5rem;
+      color: hsl(210, 13%, 60%);
+      span {
+        margin-left: 5px;
+        font-weight: 500;
+        font-size: 14px;
+      }
+    }
+  }
+}

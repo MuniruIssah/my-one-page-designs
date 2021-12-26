@@ -1,0 +1,15 @@
+.homelySortWrapper {
+  display: flex;
+
+  .homelySortLabel {
+    color: hsl(60, 1%, 72%);
+    font-weight: 500;
+  }
+
+  .homelySortSelect {
+    border: none;
+    outline: none;
+    color: hsl(60, 1%, 22%);
+    font-weight: 600;
+  }
+}

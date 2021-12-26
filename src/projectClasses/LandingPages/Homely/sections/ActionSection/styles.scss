@@ -1,0 +1,10 @@
+.homelyActionSection{
+    display: flex;
+    padding: 0px 2.5rem;
+    justify-content: space-between;
+
+    .homelyActionSectionInner{
+        display: flex;
+        align-items: center;
+    }
+}

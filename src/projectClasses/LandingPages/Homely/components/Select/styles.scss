@@ -1,0 +1,16 @@
+.homelySelect{
+    margin: 0px 5px;
+    height: 35px;
+    border: 1px solid hsl(60, 1%, 82%);
+    color: hsl(60, 1%, 72%);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 0px 10px;
+    outline: none;
+}
+
+.selected{
+    border: 2px solid hsl(156, 49%, 52%) !important;
+    color: hsl(156, 49%, 52%) !important;
+    background-color: hsl(156, 49%, 82%) !important;
+}

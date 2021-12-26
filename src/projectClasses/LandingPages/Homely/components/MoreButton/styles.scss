@@ -1,0 +1,17 @@
+.homelyMoreButton{
+    border: 1px solid hsl(60, 1%, 82%);
+    background: none;
+    color: hsl(60, 1%, 72%);
+    margin: 0px 5px;
+    height: 35px;
+    padding: 0px 7px;
+    border-radius: 5px;
+
+    span{
+        &:first-child{
+            margin-right: 15px;
+        }
+    }
+
+
+}

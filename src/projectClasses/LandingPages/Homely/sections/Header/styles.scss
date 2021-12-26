@@ -1,0 +1,44 @@
+.homelyHeaderWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 2.5rem;
+  align-items: center;
+  height: 7vh;
+  border-bottom: 1px solid lightgrey;
+
+  .homelyLogoSection {
+    color: #37a176;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    span {
+      &:last-child {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .homelyLinks {
+      height: 30px;
+      display: flex;
+      align-items: center;
+    a {
+      margin: 0px 15px;
+      color:#9f9f9e ;
+      height: 100%;
+      font-weight: bold;
+      border: none;
+    }
+  }
+  .homelyNotificationsAndProfile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.activeHomelyLink {
+  color: #37a176 !important;
+  border-bottom: 2px solid #37a176 !important;
+}

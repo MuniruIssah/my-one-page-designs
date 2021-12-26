@@ -14,6 +14,7 @@ import UIDashboard from "./projectClasses/Dashboards/UIDashboard";
 import Momatu from "./projectClasses/LandingPages/Momatu";
 import Waxot from "./projectClasses/LandingPages/Waxot";
 import SomeonesMarvel from "./projectClasses/LandingPages/SomeonesMarvel";
+import Homely from "./projectClasses/LandingPages/Homely";
 function App() {
   return (
     <div className="App">
@@ -31,6 +32,8 @@ function App() {
           <Route path="/momatu" component={Momatu} />
           <Route path="/waxot" component={Waxot} />
           <Route path="/marvel" component={SomeonesMarvel} />
+          <Route path="/homely" component={Homely} />
+
 
 
           <Route path="/" component={BHNetwork} />
