@@ -1,0 +1,38 @@
+.newsHubFeaturedNewsCard {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  margin-right: 1rem;
+  text-align: left;
+  height: 150px;
+
+  .nhfncImage {
+    width: 150px;
+    height: 100px;
+    background-color: yellowgreen;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .nhfncDetails {
+    width: 300px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    p {
+      height: 100%;
+      &:first-child {
+        font-weight: 600;
+        font-size: 15px;
+        color: #434356;
+      }
+      &:last-child {
+        color: hsl(213, 19%, 57%);
+        font-size: 13px;
+        font-weight: 500;
+      }
+    }
+  }
+}

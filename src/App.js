@@ -15,6 +15,7 @@ import Momatu from "./projectClasses/LandingPages/Momatu";
 import Waxot from "./projectClasses/LandingPages/Waxot";
 import SomeonesMarvel from "./projectClasses/LandingPages/SomeonesMarvel";
 import Homely from "./projectClasses/LandingPages/Homely";
+import NewsHub from "./projectClasses/LandingPages/NewsHub";
 function App() {
   return (
     <div className="App">
@@ -33,9 +34,7 @@ function App() {
           <Route path="/waxot" component={Waxot} />
           <Route path="/marvel" component={SomeonesMarvel} />
           <Route path="/homely" component={Homely} />
-
-
-
+          <Route path="/newshub" component={NewsHub} />
           <Route path="/" component={BHNetwork} />
         </Switch>
       </Router>

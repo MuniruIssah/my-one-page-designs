@@ -1,0 +1,22 @@
+.newsHubLogo{
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+    span{
+
+        &:first-child{
+            background-color: black;
+            padding: 1px 8px;
+            // border-radius: 3px;
+            color: white;
+            font-size: 19px;
+            margin-right: 0.5rem;
+            
+        }
+        &:last-child{
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+    }
+}

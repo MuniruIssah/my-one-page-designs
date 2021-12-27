@@ -1,0 +1,36 @@
+.newsHubHeaderSectionWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+  box-sizing: border-box;
+  padding: 0px 2.5rem;
+  border-bottom: 1px solid lightgrey;
+  .newsHubLogoAndLinks {
+    display: flex;
+    align-items: center;
+    a {
+      font-size: 13px;
+      padding: 0px 10px;
+      color: black;
+      font-weight: 600;
+    }
+  }
+  .newsHubSearchAndAuth {
+    display: flex;
+    align-items: center;
+
+    button{
+        border: none;
+        background: none;
+        font-weight: 600;
+        font-size: 15px;
+
+    }
+  }
+}
+
+.activeNewsHubLink {
+  color: black;
+}

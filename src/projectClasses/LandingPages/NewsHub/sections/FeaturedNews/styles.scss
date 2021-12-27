@@ -1,0 +1,35 @@
+.nhfnWrapper {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px 2.5rem;
+
+  .nhfnHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0px;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+    span {
+      font-weight: bold;
+      font-size: 25px;
+    }
+
+    div {
+      button {
+        background: none;
+        border: none;
+        &:first-child {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  .nhfnList {
+    display: flex;
+    overflow-x: scroll;
+  }
+}
