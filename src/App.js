@@ -16,6 +16,7 @@ import Waxot from "./projectClasses/LandingPages/Waxot";
 import SomeonesMarvel from "./projectClasses/LandingPages/SomeonesMarvel";
 import Homely from "./projectClasses/LandingPages/Homely";
 import NewsHub from "./projectClasses/LandingPages/NewsHub";
+import Prism from "./projectClasses/LandingPages/Prism";
 function App() {
   return (
     <div className="App">
@@ -35,6 +36,8 @@ function App() {
           <Route path="/marvel" component={SomeonesMarvel} />
           <Route path="/homely" component={Homely} />
           <Route path="/newshub" component={NewsHub} />
+          <Route path="/prism" component={Prism} />
+
           <Route path="/" component={BHNetwork} />
         </Switch>
       </Router>

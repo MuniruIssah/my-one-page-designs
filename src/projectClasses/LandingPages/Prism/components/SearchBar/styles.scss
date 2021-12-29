@@ -1,0 +1,15 @@
+.prismSearchBar{
+    height: 40px;
+    border: 2px solid #9c9c9b;
+    color: #9c9c9b;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    margin-right: 3rem;
+
+    input{
+        border: none;
+        outline: none;
+        width: 100%;
+    }
+}

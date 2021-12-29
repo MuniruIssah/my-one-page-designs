@@ -1,0 +1,40 @@
+.prismPostedBy {
+  text-align: left;
+  margin-bottom: 1rem;
+  .ppbHeading {
+    font-weight: bold;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .ppbDetails {
+    display: flex;
+
+    .circleImage {
+      width: 40px;
+      height: 40px;
+      margin-right: 1rem;
+      border-radius: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-color: coral;
+    }
+
+    .detaiils {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        &:first-child {
+          font-weight: bold;
+          font-size: 15px;
+        }
+        &:last-child {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

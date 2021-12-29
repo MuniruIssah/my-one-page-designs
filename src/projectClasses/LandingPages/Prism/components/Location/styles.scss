@@ -1,0 +1,30 @@
+.prismLocation {
+  display: flex;
+
+  .locationIconSection {
+    background-color: steelblue;
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+
+  .locationDetailsSection {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    span {
+      &:first-child {
+        font-weight: bold;
+        font-size: 15px;
+      }
+      &:last-child {
+        font-size: 13px;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.prismHeader{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    padding: 0px 2rem;
+    align-items: center;
+    .prismHeaderFirstSection{
+        align-items: center;
+        display: flex;
+    }
+    .prismHeaderSecondSection{
+        display: flex;
+        align-items: center;
+    }
+    .header{
+        font-size: 25px;
+        font-weight: bold;
+        margin-right: 3rem;
+    }
+    a{
+        color: #191919;
+        font-weight: bold;
+        padding: 0px 2rem;
+        font-size: 15px;
+    }
+}
+
+.activePrismNavLink{
+    color: #191919;
+    font-weight: bold;
+    font-size: 15px;
+}

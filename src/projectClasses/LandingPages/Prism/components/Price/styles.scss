@@ -1,0 +1,21 @@
+.prismPrice {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  span {
+    &:first-child {
+      color: #7ec123;
+      font-size: 20px;
+      margin-right: 2rem;
+    }
+    &:nth-child(2) {
+      font-weight: bold;
+      margin-right: 1rem;
+      text-decoration:line-through hsl(0, 100%, 30%) 2px;
+      
+    }
+    &:last-child {
+      font-weight: 500;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.offerTimeLeft{
+    text-align: left;
+
+    span{
+        &:first-child{
+            font-size: 12px;
+        }
+        &:last-child{
+            font-weight: bold;
+
+        }
+    }
+}
