@@ -2,12 +2,10 @@ import {
   faCalendar,
   faClock,
   faHeart,
-  // faShare,
   faUsers,
+  faShareNodes
 } from "@fortawesome/free-solid-svg-icons";
-import {
-faShareSquare
-} from "@fortawesome/free-regular-svg-icons";
+import {  } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import IconHeadingAndDescription from "../../components/IconHeadingAndDescription";
@@ -33,8 +31,14 @@ const PrismMainSection = ({ heading, image, children }) => {
             style={{ backgroundImage: `url(${image})` }}
           ></div>
           <div className="prismLikeAndShare">
-            <FontAwesomeIcon icon={faHeart} style={{color:'red',fontSize:25,marginRight:'1rem'}} />
-            <FontAwesomeIcon icon={faShareSquare}  style={{color:'#191919',fontSize:25,marginRight:'1rem'}}/>
+            <FontAwesomeIcon
+              icon={faHeart}
+              style={{ color: "red", fontSize: 25, marginRight: "1rem" }}
+            />
+            <FontAwesomeIcon
+              icon={faShareNodes}
+              style={{ color: "#191919", fontSize: 25, marginRight: "1rem" }}
+            />
           </div>
           <p>{children}</p>
         </div>

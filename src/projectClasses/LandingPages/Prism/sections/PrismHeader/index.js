@@ -1,5 +1,5 @@
 // import { faHeart } from '@fortawesome/free-regular-svg-icons'
-import {  faCommentDots, faShoppingBag,faHeart } from '@fortawesome/free-solid-svg-icons'
+import {  faCommentDots, faShoppingBag,faHeart, } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
