@@ -1,0 +1,29 @@
+.rocoClassCard {
+  height: 160px;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  padding: 1.5rem 5%;
+  background-color: chocolate;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  span {
+    &:first-child {
+      opacity: 0.6;
+      font-size: 12px;
+    }
+    &:nth-child(2) {
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1;
+    }
+  }
+
+  .rccStars {
+    font-size: 10px;
+    color: gold;
+  }
+}

@@ -1,0 +1,42 @@
+.rocoNavigationSection{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(143, 9%, 23%);
+    align-items: center;
+    justify-content: space-between;
+    width: 8vw;
+    height: 100%;
+
+    a{
+        width: 100%;
+        font-size: 22px;
+    }
+    .rocoNavMain{
+        display: flex;
+        flex-direction: column;
+        a{
+            color: grey;
+            margin: 1rem  0px;
+
+            &:first-child{
+                margin-top: 0px;
+            }
+
+        }
+    }
+    .rocoNavFooterLogout{
+        color: #addfad;
+        margin-bottom: 2rem;
+        
+    }
+    
+}
+
+.activeRocoNav{
+    color: #addfad !important;
+
+}
+.activeRocoNavFooter{
+    color: #addfad !important;
+
+}

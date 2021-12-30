@@ -1,0 +1,22 @@
+.rocoUserSectionHeader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  color: #0c0e0b;
+  margin-bottom: 1.5rem;
+
+  .rushHeading {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .rushNumAndAdd {
+      display: flex;
+      align-items: center;
+    span {
+      font-size: 15px;
+      margin-right: 0.5rem;
+    }
+  }
+}

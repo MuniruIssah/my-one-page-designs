@@ -17,6 +17,7 @@ import SomeonesMarvel from "./projectClasses/LandingPages/SomeonesMarvel";
 import Homely from "./projectClasses/LandingPages/Homely";
 import NewsHub from "./projectClasses/LandingPages/NewsHub";
 import Prism from "./projectClasses/LandingPages/Prism";
+import RocoEducation from "./projectClasses/Dashboards/RocoEducation";
 function App() {
   return (
     <div className="App">
@@ -37,7 +38,7 @@ function App() {
           <Route path="/homely" component={Homely} />
           <Route path="/newshub" component={NewsHub} />
           <Route path="/prism" component={Prism} />
-
+          <Route path="/roco" component={RocoEducation} />
           <Route path="/" component={BHNetwork} />
         </Switch>
       </Router>

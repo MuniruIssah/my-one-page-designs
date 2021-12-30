@@ -1,0 +1,18 @@
+.rocoLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 50px;
+  font-size: 17px;
+  font-weight: 900;
+  background-color: #addfad;
+  margin-top: 2rem;
+  border-radius: 5px;
+  color: hsl(90, 100%, 10%);
+
+  span {
+    line-height: 0.9;
+  }
+}

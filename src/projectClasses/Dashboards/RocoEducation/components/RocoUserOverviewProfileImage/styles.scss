@@ -1,0 +1,27 @@
+.rocoUserOverviewProfileImageWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .rocoUserOverviewProfileImage {
+    height: 130px;
+    width: 115px;
+    background-color: slategray;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .premiumIndicator {
+      position: absolute;
+      background-color: white;
+      border-radius: 5px;
+      bottom: -6%;
+      left: 17%;
+      padding: 4px 10px;
+      font-size: 13px;
+      font-weight: 500;
+      //   border: 1px solid slategray;
+      box-shadow: 1px 1px 4px 1px rgb(0, 0, 0, 0.3);
+    }
+  }
+}

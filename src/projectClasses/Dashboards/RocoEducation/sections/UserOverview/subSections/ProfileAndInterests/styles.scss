@@ -1,0 +1,50 @@
+.rocoUserOverviewProfileAndInterests {
+  width: 22vw;
+  
+  border-right: 1px solid lightgrey;
+  padding: 0px 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .rocoUserOverviewProfileAndInterestsNameAndEmail {
+    width: 100%;
+    span {
+      display: block;
+      &:first-child {
+        font-weight: 600;
+        font-size: 18px;
+      }
+      &:last-child {
+        color: #929791;
+        font-size: 16px;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .rocoUserOverviewProfileAndInterestsHoursAndClasses {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .rocoUserOverviewProfileAndInterestsInterests {
+    text-align: center;
+    width: 100%;
+
+    span{
+      font-size: 20px;
+      display: block;
+      margin-bottom: 0.6rem;
+    }
+    .interestTagList{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+}

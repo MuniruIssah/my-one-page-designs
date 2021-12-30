@@ -1,0 +1,18 @@
+.rocoUserOverviewClasses {
+  width: 22vw;
+  border-right: 1px solid lightgrey;
+  padding: 0px 2rem;
+
+  .rocoUserOverviewClassesHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    span{
+      font-size: 22px;
+      font-weight: 700;
+    }
+  }
+
+}

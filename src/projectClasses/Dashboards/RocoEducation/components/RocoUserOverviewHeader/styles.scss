@@ -1,0 +1,37 @@
+.rocoUserOverviewHeader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10vh;
+  padding: 0px 2rem;
+  justify-content: space-between;
+
+  span {
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  div {
+    display: flex;
+    button {
+      padding: 7px 20px;
+      &:first-child {
+        background: none;
+        border: none;
+        margin-right: 2.5rem;
+      }
+      &:last-child {
+        border: none;
+        background-color: #addfad;
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+
+        span {
+          font-size: 14px;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}

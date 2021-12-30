@@ -1,0 +1,19 @@
+.rocoHeadingAndDescription {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 2rem;
+
+  span {
+    display: block;
+    &:first-child {
+      font-weight: 900;
+      font-size: 25px;
+    }
+    &:last-child {
+      color: #929791;
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+}
