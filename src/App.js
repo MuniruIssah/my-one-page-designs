@@ -18,6 +18,7 @@ import Homely from "./projectClasses/LandingPages/Homely";
 import NewsHub from "./projectClasses/LandingPages/NewsHub";
 import Prism from "./projectClasses/LandingPages/Prism";
 import RocoEducation from "./projectClasses/Dashboards/RocoEducation";
+import Base from "./projectClasses/LandingPages/Base";
 function App() {
   return (
     <div className="App">
@@ -39,6 +40,8 @@ function App() {
           <Route path="/newshub" component={NewsHub} />
           <Route path="/prism" component={Prism} />
           <Route path="/roco" component={RocoEducation} />
+          <Route path="/base" component={Base} />
+
           <Route path="/" component={BHNetwork} />
         </Switch>
       </Router>

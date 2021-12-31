@@ -1,0 +1,26 @@
+.baseTopSection {
+  height: 80vh;
+  color: #ffffff;
+  background-image:url(../../assets/archery.png) , linear-gradient(to right bottom, #31d4d4, #3198d4, #3198d4);
+  background-repeat: no-repeat;
+  background-position-x: 85%;
+  background-position-y: center;
+
+  padding: 2rem 10vw;
+
+  main {
+    text-align: left;
+
+    .baseHeadingText {
+      font-size: 3.5vw;
+      font-weight: bold;
+      display: block;
+    }
+    .signUpNote {
+      font-size: 16px;
+      margin: 1rem 0px;
+      display: block;
+      color:rgb(255, 255, 255,0.7);
+    }
+  }
+}

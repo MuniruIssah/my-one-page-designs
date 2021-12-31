@@ -1,0 +1,12 @@
+.baseLogo{
+    display: flex;
+    align-items: center;
+
+    span{
+        &:last-child{
+            margin-left: 1rem;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+}

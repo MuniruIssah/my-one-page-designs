@@ -1,0 +1,32 @@
+.baseTopSectionHeader{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    margin-bottom: 7vh;
+
+    div{
+        a{
+            color:white;
+            opacity: 0.6;
+            padding: 0px 2rem;
+        }
+    }
+
+    button{
+        height: 45px;
+        width: 110px;
+        background-color: white;
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: 600;
+        color: black;
+        border: none;
+    }
+
+}
+
+.activeBaseNavLink{
+    font-weight: 600;
+    opacity: 1 !important;
+
+}
